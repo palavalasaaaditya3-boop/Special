@@ -46,7 +46,7 @@ export default function App() {
             </div>
 
             <div className="ghost" onClick={() => setStarted(true)}>
-              👻
+              😽
             </div>
           </div>
         ) : (
@@ -56,7 +56,7 @@ export default function App() {
                 className="card center-card"
                 onClick={handleSushma}
                 style={{
-                  transform: `translate(-50%, -50%) translate(${sushmaPos.x}px, ${sushmaPos.y}px)`,
+                  transform: `translate(-100%, -100%) translate(${sushmaPos.x}px, ${sushmaPos.y}px)`,
                 }}
               >
                 Sushma ❤️
@@ -65,20 +65,20 @@ export default function App() {
 
             {step === 1 && (
               <>
-                <div className="message-box">Seriously?</div>
+                <div className="message-box">Seriously love?</div>
 
                 <div className="card left-card" onClick={() => setStep(2)}>
-                  Bubbbbbu
+                  Bubbbbbu🥰
                 </div>
               </>
             )}
 
             {step === 2 && (
               <>
-                <div className="message-box">ohhhh come on not again</div>
+                <div className="message-box">ohhhh come darling on not again</div>
 
                 <div className="card right-card" onClick={() => setStep(3)}>
-                  Mummy
+                  Mummy😁😁
                 </div>
               </>
             )}
@@ -86,11 +86,11 @@ export default function App() {
             {step === 3 && (
               <>
                 <div className="message-box">
-                  ahhh!! yeah you are getting close
+                  ahhh!! now you are getting close
                 </div>
 
                 <div className="card bottom-card" onClick={() => setStep(4)}>
-                  Something special it is
+                  Something special it is🥰🥰
                 </div>
               </>
             )}
